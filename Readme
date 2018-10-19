@@ -1,0 +1,18 @@
+N8NYE Midi Remap
+
+
+python -m pip install mido
+python -m pip install python-rtmidi	
+
+this requires alsa-dev, jack-dev.  
+If you get error just look for [item]-dev frm the error message in software manager
+
+
+1. cd into APCRewire
+2. run the following:
+	python APCRewire.py
+
+in the config section, place your remapping for each section
+
+note_off channel=1 note=47 velocity=127 time=0
+first	 second	   Third   Fourth	Fifth
